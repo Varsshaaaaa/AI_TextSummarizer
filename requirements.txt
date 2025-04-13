@@ -3,3 +3,5 @@ torch
 streamlit
 keybert
 sentence-transformers
+PyMuPDF
+
