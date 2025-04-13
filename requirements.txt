@@ -5,4 +5,7 @@ keybert
 sentence-transformers
 PyMuPDF
 langdetect
+python-docx
+markdown
+
 
