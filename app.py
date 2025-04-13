@@ -144,7 +144,3 @@ if st.button("Generate Insights") and input_text:
     with open(md_path, "rb") as f:
         st.download_button(label="📥 Download Notes as Markdown", data=f, file_name="notes_output.md")
 
-# 📌 Future Scope Comments
-st.sidebar.header("🚀 Future Enhancements")
-st.sidebar.write("- Integrate real-time Speech-to-Text transcription.")
-st.sidebar.write("- Enhance Action Item detection with a fine-tuned classifier.")
