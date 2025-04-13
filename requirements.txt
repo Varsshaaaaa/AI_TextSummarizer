@@ -4,4 +4,5 @@ streamlit
 keybert
 sentence-transformers
 PyMuPDF
+langdetect
 
