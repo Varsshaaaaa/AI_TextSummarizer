@@ -17,7 +17,9 @@ keyword_model = KeyBERT(model=SentenceTransformer('all-MiniLM-L6-v2'))
 
 # Load MBART for multilingual support
 mbart_model = MBartForConditionalGeneration.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
-mbart_tokenizer = MBart50TokenizerFast.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
+from transformers import MBart50Tokenizer
+mbart_tokenizer = MBart50Tokenizer.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
+
 
 # 📌 Function to extract text from PDF
 def extract_text_from_pdf(pdf_file):
