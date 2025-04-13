@@ -8,7 +8,7 @@
 
 An intelligent and streamlined AI-powered tool that turns raw text or PDF documents into structured, actionable notes — complete with summaries, keywords, action items, open questions, and key statistics. Perfect for professionals, students, and researchers to capture meeting notes, lecture insights, or report summaries effortlessly.
 
-> 🔥 **This app is LIVE and deployed on [Streamlit Cloud](https://your-streamlit-app-url)** — Try it now!
+> 🔥 **This app is LIVE and deployed on [Streamlit Cloud](https://aitextsummarizer-dmpjh6mf85ehcdc9hlwwed.streamlit.app/)** — Try it now!
 
 ---
 
